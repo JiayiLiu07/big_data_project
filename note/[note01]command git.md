@@ -3,25 +3,25 @@
 ```
 
 git -h：用于显示 Git 命令的帮助信息
-![alt text](<../截图/git -h.png>)
+![alt text](<git -h.png>)
 
 git status：显示当前工作树的状态。
-![alt text](<../截图/git status.png>)
+![alt text](<git status.png>)
 
-ping github.com：检查网络是否通信
-![alt text](<../截图/ping github.com.png>)
+ping github.c![alt text](<ping github.com.png>)om：检查网络是否通信
+
 
 git clone https://github.com/JiayiLiu07/big_data_project.git:克隆 远程的项目
-![alt text](<../截图/git clone.png>)
+![alt text](<git clone.png>)
 
-git branch:显示所有本地分支，当前分支前会有一个星号（*）标记。
-![alt text](<../截图/git branch.png>)
+git branch:显示所有本地分支，当前分支前会有一个星号（*）标记。![alt text](<git branch.png>)
 
-git pull:用于从远程仓库获取（fetch）并合并（merge）当前分支的最新内容。（远程到本地）![alt text](<../截图/git pull.png>)
+
+git pull:用于从远程仓库获取（fetch）并合并（merge）当前分支的最新内容。（远程到本地）![alt text](<git pull.png>)
 
 
 git push:用于将本地仓库的更新推送到远程仓库。（本地到远程）
-![alt text](<../截图/git push.png>)
+![alt text](<git push.png>)
 
 git checkout xxx：切换到xxx（其他)分支
 

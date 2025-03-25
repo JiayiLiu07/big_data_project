@@ -6,7 +6,7 @@ ln data.txt data_hardlink  # 创建硬连接
 - 可以认为是一个指针，指向文件索引节点的指针，系统并不为它重新分配索引节点（inode）。每添加一个一个硬链接，文件的链接数就加1。
 - 硬连接之间没有主次之分，删除某个硬链接，只是将其从目录的数据块中删除相关信息，并且文件链接数减一。不会从inode表中删除inode,除非只剩下一个链接数。
 
-![alt text](<../截图/hard links.png>)
+![alt text](<hard links.png>)
 
 备注：ls -il 的作用是 ​同时显示文件的 inode 编号和详细信息。
 
@@ -16,8 +16,8 @@ ln -s data.txt data_symlink   # 创建软连接
 
 
 - 相当于 Windows 中的快捷方式，即如果你软链接一个目录，只是一个目录的快捷方式到指定位置，操作系统找这个快捷方式会直接找到真实目录下的文件。
+![alt text](<soft links.png>)
 
-![alt text](<../截图/soft links.png>)
 
 结论：软连接与原文件并不是同一inode，链接数也没有增加，连大小也不一样。
 
