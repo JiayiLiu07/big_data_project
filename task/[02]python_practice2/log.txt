@@ -1,0 +1,5 @@
+[2025-03-15 100000] [INFO] This is an info message.
+[2025-03-15 100100] [ERROR] This is an error message. [ErrorCode 404]
+[2025-03-15 100200] [INFO] Another info message.
+[2025-03-15 100300] [ERROR] Another error message. [ErrorCode 500]
+[2025-03-15 100400] [ERROR] Yet another error message. [ErrorCode 404]
